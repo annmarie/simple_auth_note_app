@@ -1,0 +1,40 @@
+{
+  "name": "simple_web_auth_app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "latest",
+    "body-parser": "~1.15.2",
+    "connect-flash": "~0.1.1",
+    "cookie-parser": "~1.4.3",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "express-session": "~1.14.1",
+    "hashids": "^1.1.1",
+    "lodash": "^4.17.4",
+    "morgan": "~1.7.0",
+    "mysql": "^2.13.0",
+    "passport": "~0.3.2",
+    "passport-local": "~1.0.0",
+    "q": "^1.5.0",
+    "serve-favicon": "^2.4.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "connect-redis": "^3.3.3",
+    "css-loader": "^0.28.1",
+    "node-sass": "^4.5.3",
+    "prompt": "^1.0.0",
+    "redis": "^2.8.0",
+    "rotating-file-stream": "^1.3.4",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.7.0"
+  }
+}

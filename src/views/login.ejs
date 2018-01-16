@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div data-target="main" class="container">
+  <div data-target="login-page-form">
+    <h1><span class="fa fa-sign-in"></span> Login</h1>
+    <div data-target="form-alert" class="alert alert-danger hidden"></div>
+    <form action="#" id="login-form" method="post">
+      <div class="form-group">
+        <label>Email</label>
+        <input type="text" class="form-control" name="email" placeholder="email">
+      </div>
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" class="form-control" name="password" placeholder="password">
+      </div>
+      <button data-action="submit" type="submit">Login</button>
+    </form>
+  </div>
+</div>
+
+<script src="/gen/bundle.js"></script>
+</div>
+</body>
+</html>
